@@ -28,7 +28,8 @@ public class ExtentReportsDemo {
         extent.attachReporter(reporter);
         extent.setSystemInfo("tester", "Manukiran");
 
-        driver = new ChromeDriver(); // initialize once
+        driver = new ChromeDriver();
+System.out.println("hello baby"); // initialize once
     }
 
     @Test
